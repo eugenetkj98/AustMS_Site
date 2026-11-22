@@ -1,0 +1,20 @@
+{%- comment -%}
+  Renders one section of _data/resources.yml as a card.
+  Usage: {% include link-list.html section=site.data.resources.during %}
+{%- endcomment -%}
+{%- assign sec = include.section -%}
+<div class="card">
+  <h3>{{ sec.title }}</h3>
+  {%- if sec.intro %}<p>{{ sec.intro }}</p>{% endif %}
+  <ul class="link-list">
+  {%- for it in sec.items %}
+    <li>
+    {%- if it.url and it.url != "" %}
+      <a href="{{ it.url | relative_url }}">{{ it.name }}{% if it.description %}<span class="desc">{{ it.description }}</span>{% endif %}</a>
+    {%- else %}
+      <span class="item">{{ it.name }}<span class="desc">{% if it.description %}{{ it.description }} {% endif %}{% include placeholder.html text="link to be added" %}</span></span>
+    {%- endif %}
+    </li>
+  {%- endfor %}
+  </ul>
+</div>

@@ -1,0 +1,11 @@
+{%- comment -%} Renders a list of people from _data/contacts.yml {%- endcomment -%}
+<ul class="link-list">
+{%- for p in include.people %}
+  <li><span class="item"><strong>{{ p.name }}</strong>
+    {%- if p.role %}<span class="desc">{{ p.role }}</span>{% endif %}
+    <span class="desc">Email:
+      {% if p.email and p.email != "" %}<a href="mailto:{{ p.email }}">{{ p.email }}</a>{% else %}{% include placeholder.html text="email to be added" %}{% endif %}</span>
+    {%- if p.phone and p.phone != "" %}<span class="desc">Phone: <a href="tel:{{ p.phone | remove: ' ' }}">{{ p.phone }}</a></span>{% endif %}
+  </span></li>
+{%- endfor %}
+</ul>

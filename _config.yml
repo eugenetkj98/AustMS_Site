@@ -1,0 +1,47 @@
+# ------------------------------------------------------------------
+# Site settings. Edit these, then save. GitHub Pages rebuilds the site
+# automatically after each push (takes about a minute).
+# ------------------------------------------------------------------
+
+title: AustMS Early-Career Workshop 2026
+tagline: Monday, 30 November 2026
+description: >-
+  AustMS Early-Career Workshop 2026, Monday 30 November 2026.
+  Program booklet, event details, resources and contacts.
+
+# The booklet shown on the home page. To publish a new version, replace
+# the PDF file (keeping this name) or change this path.
+booklet: /AustMS-ECW-2026.pdf
+
+# Venue map on the home page. "map_query" is what Google Maps searches for
+# to place the pin; change it if the pin lands in the wrong spot.
+venue:
+  name: EZONE Central, Giumelli Learning Studio 3
+  details: >-
+    Level 2, EZONE Central (building 275), The University of Western Australia,
+    35 Stirling Highway, Crawley. The afternoon sessions move to the Weatherburn
+    Lecture Theatre in the Mathematics Building.
+  map_query: EZONE Central, University of Western Australia, Crawley WA 6009
+  map_zoom: 17
+
+# Character shown in the square logo at the top left.
+logo_text: "Σ"
+
+# Main colour, used for the logo, active tab and links.
+# (Other colours are at the top of assets/style.css.)
+accent_color: "#0b4f8a"
+
+# ------------------------------------------------------------------
+# Technical settings. You shouldn't need to change these.
+# ------------------------------------------------------------------
+lang: en-AU
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle

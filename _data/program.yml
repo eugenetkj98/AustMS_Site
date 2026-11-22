@@ -1,0 +1,57 @@
+# The workshop program, shown on the Event Details page.
+# Each entry has a time and a session. These are optional:
+#   speakers:  who is presenting
+#   location:  where it is
+#   streams:   parallel sessions, each with a title and speakers
+#   break: true   shows the entry in a lighter style (tea, lunch, changeovers)
+# Text can use Markdown, e.g. *to be confirmed*.
+
+- time: "8:30–9:00"
+  session: Registration
+  break: true
+- time: "9:00–9:15"
+  session: Welcome
+  speakers: Alex Tam, Yudhi Bunjamin, Eugene Tan
+  location: EZONE Central, Giumelli Learning Studio 3
+- time: "9:15–9:45"
+  session: Social activity
+  speakers: Alex Tam, Yudhi Bunjamin, Eugene Tan
+  location: EZONE Central, Giumelli Learning Studio 3
+- time: "9:45–10:15"
+  session: AustMS Early Career Lecturer Plenary
+  speakers: Luciana Basualdo Bonatto
+  location: EZONE Central, Giumelli Learning Studio 3
+- time: "10:15–11:00"
+  session: Morning tea
+  break: true
+- time: "11:00–12:00"
+  session: Careers Workshop
+  speakers: Brendan Florio, Robyn Owens
+  location: EZONE Central, Giumelli Learning Studio 3
+- time: "12:00–13:00"
+  session: Lunch
+  break: true
+- time: "13:00–14:00"
+  session: Communication Workshops
+  streams:
+    - title: How to Give a Bad Presentation
+      speakers: Shannon Algar, Hayden Tronnolone
+    - title: Industry and Research Funding
+      speakers: Hoa Bui
+  location: EZONE Central, Giumelli Learning Studio 3
+- time: "14:00–14:10"
+  session: Venue change (walk to Weatherburn Lecture Theatre)
+  break: true
+- time: "14:10–15:00"
+  session: Panel Discussion
+  speakers: Cheryl Praeger, Michael Hartley, John Bamberg, Geoffrey Pearce, Yudhi Bunjamin
+  location: Weatherburn Lecture Theatre
+- time: "15:00–15:30"
+  session: Afternoon tea
+  break: true
+- time: "15:30–16:20"
+  session: Would I Lie To You?
+  speakers: Julia Collins, Scott Lindstrom, Brendan Florio, Rhuaidi Burke, Dominic Matan
+  location: Weatherburn Lecture Theatre
+- time: "16:20–16:30"
+  session: Presentation and close

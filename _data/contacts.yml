@@ -1,0 +1,25 @@
+# People and numbers on the Contacts page.
+# Leave a value empty ("") and the page shows a "to be added" placeholder.
+
+organisers:
+  - name: Alex Tam
+    role: Adelaide Uni Representative
+    email: "alexander.tam@adelaide.edu.au"
+  - name: Yudhi Bunjamin
+    role: UNSW Representative
+    email: "yudhi@unsw.edu.au"
+  - name: Eugene Tan
+    role: Local Organiser
+    email: "eugene.tan@thekids.org.au"
+
+on_the_day:
+  - label: Help desk
+    value: At registration (8:30 am)
+  - label: Phone
+    value: "+61425067125 (Eugene)"
+
+emergency:
+  - label: Emergency
+    value: "[000](tel:000) (police, fire, ambulance)"
+  - label: Campus security
+    value: "6488 2222"

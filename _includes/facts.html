@@ -1,0 +1,7 @@
+{%- comment -%} Renders label/value pairs. Empty values show as placeholders. {%- endcomment -%}
+<dl class="facts">
+{%- for f in include.facts %}
+  <dt>{{ f.label }}</dt>
+  <dd>{% if f.value and f.value != "" %}{{ f.value | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% else %}{% include placeholder.html text=f.placeholder %}{% endif %}</dd>
+{%- endfor %}
+</dl>

@@ -1,0 +1,13 @@
+{%- comment -%} Venue map. Settings are under "venue" in _config.yml. {%- endcomment -%}
+{%- assign q = site.venue.map_query | url_encode -%}
+<section class="venue" id="venue" aria-labelledby="venue-heading">
+  <h2 id="venue-heading">Venue</h2>
+  <p><strong>{{ site.venue.name }}</strong><br>{{ site.venue.details }}</p>
+  <iframe class="map-frame" title="Map showing {{ site.venue.name }}" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade" allowfullscreen
+    src="https://maps.google.com/maps?q={{ q }}&amp;z={{ site.venue.map_zoom | default: 17 }}&amp;output=embed"></iframe>
+  <div class="map-actions">
+    <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query={{ q }}" target="_blank" rel="noopener">Open in Google Maps</a>
+    <a class="button secondary" href="https://www.google.com/maps/dir/?api=1&amp;destination={{ q }}&amp;travelmode=transit" target="_blank" rel="noopener">Directions</a>
+  </div>
+</section>

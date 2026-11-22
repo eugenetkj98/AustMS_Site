@@ -1,0 +1,47 @@
+# Links on the Resources page, grouped into sections (one card each).
+# Each item has a name, an optional description and a url.
+# Leave url empty ("") and the page shows "link to be added".
+# For a file in this repository, use a path like /files/slides.pdf
+
+download:
+  title: Workshop booklet
+  intro: The full program booklet as a PDF.
+  items:
+    - name: Download the booklet
+      url: /AustMS-ECW-2026.pdf
+
+during:
+  title: During the workshop
+  items:
+    - name: Mentimeter “Ask Me Anything” Q&A
+      description: Ask the panel questions anonymously.
+      url: ""
+    - name: The Amazing Race
+      description: Puzzles at conference-relevant UWA locations.
+      url: ""
+    - name: Campus map
+      url: ""
+    - name: Wi-Fi (Eduroam)
+      description: How to connect at UWA. Check it works before you travel.
+      url: https://ipoint.uwa.edu.au/app/answers/detail/a_id/683/~/wireless-access-at-uwa
+
+materials:
+  title: Slides and materials
+  items:
+    - name: "Workshop: ECR perspectives on mathematics in 2026"
+      url: ""
+    - name: Communication workshop materials
+      url: ""
+    - name: Plenary
+      url: ""
+
+links:
+  title: Further links
+  items:
+    - name: Australian Mathematical Society
+      description: austms.org.au
+      url: https://austms.org.au/
+    - name: AustMS 2026 conference website
+      url: ""
+    - name: Feedback form
+      url: ""

@@ -1,0 +1,25 @@
+---
+# Home page: the booklet viewer. The PDF is set by "booklet" in _config.yml.
+layout: default
+title: Booklet
+---
+<div class="viewer-toolbar">
+  <div class="group">
+    <button id="zoom-out" type="button" aria-label="Zoom out">−</button>
+    <span id="zoom-level" aria-live="polite">100%</span>
+    <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
+    <button id="zoom-fit" type="button" aria-label="Fit to screen width">Fit</button>
+  </div>
+  <div class="group">
+    <a href="#venue">Map</a>
+    <span id="page-count"></span>
+    <a href="{{ site.booklet | relative_url }}" download>Download</a>
+  </div>
+</div>
+<main id="pdf-container" data-pdf="{{ site.booklet | relative_url }}" aria-label="Workshop booklet">
+  <p id="pdf-status">Loading the booklet…</p>
+</main>
+{% include venue-map.html %}
+<noscript><p style="text-align:center"><a class="button" href="{{ site.booklet | relative_url }}">Open the booklet PDF</a></p></noscript>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="{{ '/assets/viewer.js' | relative_url }}"></script>

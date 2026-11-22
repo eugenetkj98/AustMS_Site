@@ -1,0 +1,16 @@
+{%- comment -%} Renders the program from _data/program.yml {%- endcomment -%}
+<ul class="program">
+{%- for s in site.data.program %}
+  <li{% if s.break %} class="break"{% endif %}>
+    <span class="time">{{ s.time }}</span>
+    <span>
+      <span class="what">{{ s.session }}</span>
+      {%- if s.speakers %}<br><span class="who">{{ s.speakers | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}
+      {%- for st in s.streams %}
+      <span class="stream"><span class="stream-title">{{ st.title }}</span>{% if st.speakers %}<span class="who">{{ st.speakers | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}</span>
+      {%- endfor %}
+      {%- if s.location %}<span class="where">{{ s.location }}</span>{% endif %}
+    </span>
+  </li>
+{%- endfor %}
+</ul>

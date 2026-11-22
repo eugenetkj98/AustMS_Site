@@ -12,7 +12,7 @@
 
   var pdfDoc = null;
   var zoom = 1;            // 1 = fit page to screen width
-  var MIN_ZOOM = 0.5, MAX_ZOOM = 3, STEP = 0.25;
+  var MIN_ZOOM = 0.25, MAX_ZOOM = 3, STEP = 0.05;
   var renderToken = 0;
   var lastWidth = 0;
 

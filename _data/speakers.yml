@@ -1,0 +1,99 @@
+# Speakers on the Speakers page, shown in this order.
+#
+# Each speaker has:
+#   name:        Full name, as it should appear on the site.
+#   institution: University or organisation.
+#   bio:         A short paragraph. Markdown works (*italics*, **bold**, [links](https://...)).
+#                Start it with ">-" on its own line, then indent the text underneath,
+#                so commas, colons and quotes don't upset YAML.
+#   photo:       Path to a picture in assets/speakers/, for example
+#                "/assets/speakers/jane-citizen.jpg". A square image about 400 x 400
+#                pixels works best. Leave it empty ("") and the page shows the
+#                speaker's initials in a circle instead.
+#
+# Leave institution or bio empty ("") and the page shows a "to be added" placeholder.
+# The two entries below are SAMPLES: replace them with real speakers.
+
+- name: Dr Luciana Basualdo Bonatto
+  institution: University of Oxford
+  photo: ""
+  bio: >-
+    TBA
+
+- name: Dr Brendan Florio
+  institution: "University of Western Australia (UWA)"
+  photo: ""
+  bio: >-
+    TBA
+
+- name: Emer. Prof. Robyn Owens
+  institution: "University of Western Australia (UWA)"
+  photo: "/assets/speakers/Robyn_Owens.png"
+  bio: >-
+    Robyn Owens (AM, FAA, FTSE) is the former Deputy Vice-Chancellor (Research) of the University of Western Australia. Robyn was trained in mathematics at UWA, Oxford and the University of Paris. Her research was primarily in computer vision, on both theoretical and applied aspects of feature recognition in images.
+  
+- name: Dr Shannon Algar
+  institution: University of Western Australia (UWA)
+  photo: ""
+  bio: >-
+    TBA
+
+- name: Dr Hayden Tronnolone
+  institution: Flinders University
+  photo: ""
+  bio: >-
+    TBA
+
+- name: Dr Hoa Bui
+  institution: Curtin University
+  photo: ""
+  bio: >-
+    TBA
+
+- name: Emer. Prof. Cheryl Praeger
+  institution: University of Western Australia (UWA)
+  photo: "/assets/speakers/Cheryl_Praeger.png"
+  bio: >-
+    Cheryl Praeger is Emeritus Professor of Mathematics at UWA and former AustMS President. In 2012 she received a national AOLT Citation for “developing the gold standard in mathematics research supervision and over thirty years of nurturing a research community where undergraduate and postgraduate mathematics research flourishes”.
+
+- name: Dr Michael Hartley
+  institution: DUG
+  photo: ""
+  bio: >-
+    TBA
+
+- name: Assoc. Prof. John Bamberg
+  institution: University of Western Australia (UWA)
+  photo: ""
+  bio: >-
+    TBA
+
+- name: Dr Geoffrey Pearce
+  institution: Perth Modern School
+  photo: ""
+  bio: >-
+    TBA
+
+- name: Dr Julia Collins
+  institution: Edith Cowan University (ECU)
+  photo: ""
+  bio: >-
+    TBA
+
+- name: Dr Scott Lindstrom
+  institution: Curtin University
+  photo: ""
+  bio: >-
+    TBA
+
+- name: Dr Rhuaidi Burke
+  institution: University of Oxford
+  photo: ""
+  bio: >-
+    TBA
+
+- name: Dominic Matan
+  institution: University of New South Wales (UNSW)
+  photo: ""
+  bio: >-
+    TBA

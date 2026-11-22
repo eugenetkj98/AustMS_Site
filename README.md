@@ -12,9 +12,10 @@ The website for workshop attendees, who reach it by QR code. It's built with [Je
 | The tabs along the top | `_data/navigation.yml` |
 | Event Details page text | `event.md` (the key facts are in the block at the top of the file) |
 | The program (times, speakers, rooms, parallel streams) | `_data/program.yml` |
+| Speakers (name, institution, bio, photo) | `_data/speakers.yml`, with photos in `assets/speakers/` |
 | Resources links | `_data/resources.yml` |
 | Organisers, phone numbers, emergency contacts | `_data/contacts.yml` |
-| Contacts and Resources page wording or order | `contacts.md`, `resources.md` |
+| Contacts, Resources and Speakers page wording or order | `contacts.md`, `resources.md`, `speakers.md` |
 | Colours, fonts, spacing | `assets/style.css` (colours are listed at the top) |
 | The header and tab bar shared by every page | `_layouts/default.html` |
 
@@ -31,6 +32,19 @@ You shouldn't need to touch `_includes/`, `assets/viewer.js` or `index.html`.
       description: Optional short line under the name.
       url: "https://www.uwa.edu.au/..."
 ```
+
+**Add a speaker.** Copy an existing entry in `_data/speakers.yml` and change it. Speakers appear on the page in the order they're listed.
+
+```yaml
+- name: Jane Citizen
+  institution: University of Somewhere
+  photo: "/assets/speakers/jane-citizen.jpg"
+  bio: >-
+    One or two sentences about Jane. Markdown works here,
+    for example *italics* or [a link](https://example.edu.au).
+```
+
+**Add a speaker's photo.** Put the picture in `assets/speakers/` (a square JPG or PNG around 400 x 400 pixels is ideal; lower-case names without spaces, like `jane-citizen.jpg`, avoid surprises), then set `photo:` to `"/assets/speakers/jane-citizen.jpg"`. With `photo: ""` the card shows the speaker's initials instead.
 
 **Link to a file of your own (slides, handouts).** Put it in a `files/` folder in this repository and use `url: /files/your-file.pdf`.
 

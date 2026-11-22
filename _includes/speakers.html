@@ -1,0 +1,29 @@
+{%- comment -%}
+  Renders speaker cards from _data/speakers.yml.
+  Usage: {% include speakers.html speakers=site.data.speakers %}
+  Each speaker: name, institution, bio (Markdown), photo (path, or "" for initials).
+{%- endcomment -%}
+<ul class="speakers">
+{%- for s in include.speakers %}
+  {%- assign words = s.name | strip | split: " " %}
+  {%- capture initials %}{{ words.first | slice: 0 }}{% if words.size > 1 %}{{ words.last | slice: 0 }}{% endif %}{% endcapture %}
+  <li class="card speaker">
+    <div class="speaker-photo">
+      {%- if s.photo and s.photo != "" %}
+      <img src="{{ s.photo | relative_url }}" alt="Photo of {{ s.name }}" loading="lazy" width="96" height="96">
+      {%- else %}
+      <span class="speaker-initials" aria-hidden="true">{{ initials | upcase }}</span>
+      {%- endif %}
+    </div>
+    <div class="speaker-text">
+      <h3>{{ s.name }}</h3>
+      <p class="speaker-institution">
+        {%- if s.institution and s.institution != "" %}{{ s.institution }}{% else %}{% include placeholder.html text="institution to be added" %}{% endif -%}
+      </p>
+      <div class="speaker-bio">
+        {%- if s.bio and s.bio != "" %}{{ s.bio | markdownify }}{% else %}<p>{% include placeholder.html text="bio to be added" %}</p>{% endif %}
+      </div>
+    </div>
+  </li>
+{%- endfor %}
+</ul>

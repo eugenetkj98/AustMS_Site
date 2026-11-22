@@ -11,15 +11,10 @@ download:
       url: /AustMS-ECW-2026.pdf
 
 during:
-  title: During the workshop
+  title: During the Workshop
   items:
     - name: Mentimeter “Ask Me Anything” Q&A
       description: Ask the panel questions anonymously.
-      url: ""
-    - name: The Amazing Race
-      description: Puzzles at conference-relevant UWA locations.
-      url: ""
-    - name: Campus map
       url: ""
     - name: Wi-Fi (Eduroam)
       description: How to connect at UWA. Check it works before you travel.
@@ -28,20 +23,23 @@ during:
 materials:
   title: Slides and materials
   items:
-    - name: "Workshop: ECR perspectives on mathematics in 2026"
-      url: ""
-    - name: Communication workshop materials
-      url: ""
     - name: Plenary
+      url: ""
+    - name: Careers Workshop
+      url: ""
+    - name: How to Give a Bad Presentation
+      url: ""
+    - name: Industry and Research Funding
+      url: ""
+    - name: Panel Discussions
       url: ""
 
 links:
   title: Further links
   items:
     - name: Australian Mathematical Society
-      description: austms.org.au
       url: https://austms.org.au/
-    - name: AustMS 2026 conference website
-      url: ""
-    - name: Feedback form
-      url: ""
+    - name: AustMS 2026 Conference
+      url: "https://austms2026.org.au/"
+    - name: Feedback Form
+      url: "https://forms.gle/SDqv5kTRGDtPSrfh8"

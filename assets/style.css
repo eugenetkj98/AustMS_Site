@@ -328,3 +328,31 @@ main.page .card h3 { margin-top: 0; }
 @media (min-width: 700px) { .venue .map-frame { height: 440px; } }
 .venue { scroll-margin-top: calc(var(--header-h) + var(--tabs-h) + 60px); }
 @media (max-width: 420px) { #page-count { display: none; } }
+
+/* Speaker cards (Speakers page) */
+main.page ul.speakers { list-style: none; padding-left: 0; margin: 0; }
+.speaker {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 16px;
+  align-items: start;
+}
+.speaker-photo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--accent-soft);
+  display: grid;
+  place-items: center;
+}
+.speaker-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.speaker-initials { font-size: 2rem; font-weight: 700; color: var(--accent); letter-spacing: 0.02em; }
+.speaker h3 { margin: 0; }
+.speaker-institution { color: var(--muted); font-size: 0.92rem; margin: 2px 0 8px; }
+.speaker-bio > :last-child { margin-bottom: 0; }
+@media (max-width: 480px) {
+  .speaker { grid-template-columns: 64px 1fr; gap: 12px; }
+  .speaker-photo { width: 64px; height: 64px; }
+  .speaker-initials { font-size: 1.4rem; }
+}

@@ -1,18 +1,41 @@
 {%- comment -%}
   Renders one section of _data/resources.yml as a card.
   Usage: {% include link-list.html section=site.data.resources.during %}
+
+  Each item uses either
+    url:  a web address or a path on this site, or
+    file: the name of a document in assets/resources/ (e.g. slides.pdf).
+  A "file" item gets a small type label (PDF, DOCX, ...) and opens in a
+  new tab. If the file isn't in assets/resources/ yet, the item shows
+  "file to be added" instead of a broken link.
 {%- endcomment -%}
 {%- assign sec = include.section -%}
+{%- assign folder = "/assets/resources/" -%}
 <div class="card">
   <h3>{{ sec.title }}</h3>
   {%- if sec.intro %}<p>{{ sec.intro }}</p>{% endif %}
   <ul class="link-list">
   {%- for it in sec.items %}
+    {%- assign href = "" -%}
+    {%- assign ext = "" -%}
+    {%- assign missing = "link to be added" -%}
+    {%- if it.file and it.file != "" -%}
+      {%- assign path = folder | append: it.file -%}
+      {%- assign found = site.static_files | where: "path", path | first -%}
+      {%- if found -%}
+        {%- assign href = found.name | uri_escape | prepend: folder -%}
+        {%- assign ext = found.extname | remove: "." | upcase -%}
+      {%- else -%}
+        {%- assign missing = "file to be added" -%}
+      {%- endif -%}
+    {%- elsif it.url and it.url != "" -%}
+      {%- assign href = it.url -%}
+    {%- endif %}
     <li>
-    {%- if it.url and it.url != "" %}
-      <a href="{{ it.url | relative_url }}">{{ it.name }}{% if it.description %}<span class="desc">{{ it.description }}</span>{% endif %}</a>
+    {%- if href != "" %}
+      <a href="{{ href | relative_url }}"{% if ext != "" %} target="_blank" rel="noopener"{% endif %}>{{ it.name }}{% if ext != "" %} <span class="filetype">{{ ext }}</span>{% endif %}{% if it.description %}<span class="desc">{{ it.description }}</span>{% endif %}</a>
     {%- else %}
-      <span class="item">{{ it.name }}<span class="desc">{% if it.description %}{{ it.description }} {% endif %}{% include placeholder.html text="link to be added" %}</span></span>
+      <span class="item">{{ it.name }}<span class="desc">{% if it.description %}{{ it.description }} {% endif %}{% include placeholder.html text=missing %}</span></span>
     {%- endif %}
     </li>
   {%- endfor %}

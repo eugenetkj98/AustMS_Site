@@ -14,6 +14,7 @@ The website for workshop attendees, who reach it by QR code. It's built with [Je
 | The program (times, speakers, rooms, parallel streams) | `_data/program.yml` |
 | Speakers (name, institution, bio, photo) | `_data/speakers.yml`, with photos in `assets/speakers/` |
 | Resources links | `_data/resources.yml` |
+| Documents on the Resources page (PDFs, Word files, slides) | `assets/resources/`, listed in `_data/resources.yml` |
 | Organisers, phone numbers, emergency contacts | `_data/contacts.yml` |
 | Contacts, Resources and Speakers page wording or order | `contacts.md`, `resources.md`, `speakers.md` |
 | Colours, fonts, spacing | `assets/style.css` (colours are listed at the top) |
@@ -46,7 +47,20 @@ You shouldn't need to touch `_includes/`, `assets/viewer.js` or `index.html`.
 
 **Add a speaker's photo.** Put the picture in `assets/speakers/` (a square JPG or PNG around 400 x 400 pixels is ideal; lower-case names without spaces, like `jane-citizen.jpg`, avoid surprises), then set `photo:` to `"/assets/speakers/jane-citizen.jpg"`. With `photo: ""` the card shows the speaker's initials instead.
 
-**Link to a file of your own (slides, handouts).** Put it in a `files/` folder in this repository and use `url: /files/your-file.pdf`.
+**Host a document on the Resources page (slides, handouts, forms).**
+
+1. Put the file in `assets/resources/`, for example `assets/resources/plenary-slides.pdf`. Any type works (PDF, Word, PowerPoint, Excel). Lower-case names without spaces are safest, and files must be under 100 MB for GitHub.
+2. In `_data/resources.yml`, add an item to whichever section fits, with `file:` set to the file's name (just the name, not the folder):
+
+```yaml
+    - name: Plenary slides
+      description: Optional short line under the name.
+      file: "plenary-slides.pdf"
+```
+
+3. Commit and push both the file and `_data/resources.yml`.
+
+The link gets a small label showing the file type (PDF, DOCX, …) and opens in a new tab. If the name in `file:` doesn't match a file in `assets/resources/` (check spelling and capitals), the page shows a yellow "file to be added" box instead of a broken link, so you can list a document before you have it. To replace a document with a new version, overwrite the file and keep the same name. To start a new section of documents, add a block like `documents:` in `_data/resources.yml` and a matching `{% include link-list.html section=site.data.resources.yoursection %}` line in `resources.md`.
 
 **Add a new tab.** Create a file such as `travel.md` that starts like this:
 

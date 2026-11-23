@@ -1,7 +1,10 @@
 # Links on the Resources page, grouped into sections (one card each).
-# Each item has a name, an optional description and a url.
-# Leave url empty ("") and the page shows "link to be added".
-# For a file in this repository, use a path like /files/slides.pdf
+# Each item has a name, an optional description, and either
+#   url:  a web address, or
+#   file: the name of a document you've put in assets/resources/
+#         (e.g. file: "ECR_Career_Slides.pdf"). It gets a PDF/DOCX label.
+# Leave url empty ("") and the page shows "link to be added". A file that
+# isn't in assets/resources/ yet shows "file to be added".
 
 download:
   title: Workshop booklet
@@ -21,18 +24,28 @@ during:
       url: https://ipoint.uwa.edu.au/app/answers/detail/a_id/683/~/wireless-access-at-uwa
 
 materials:
-  title: Slides and materials
+  title: Slides and Handouts
   items:
     - name: Plenary
       url: ""
-    - name: Careers Workshop
-      url: ""
+    - name: ECR Career Workshop Slides
+      file: "ECR_Career_Slides.pdf"
+    - name: ECR Career Workshop Skills Audit (PDF)
+      file: "AustMS Skills Audit.pdf"
+    - name: ECR Career Workshop Skills Audit (DOCX)
+      file: "AustMS Skills Audit.docx"
     - name: How to Give a Bad Presentation
       url: ""
     - name: Industry and Research Funding
       url: ""
-    - name: Panel Discussions
-      url: ""
+
+# documents:
+#   title: Documents
+#   intro: Handouts and forms to read or download.
+#   items:
+#     - name: AustMS Skills Audit
+#       description: Word document. Download, fill in and keep for yourself.
+#       file: "AustMS Skills Audit.docx"
 
 links:
   title: Further links

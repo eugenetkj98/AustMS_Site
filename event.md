@@ -27,7 +27,7 @@ details:
 {% include program.html %}
 </div>
 
-The program may change on the day. The [booklet]({{ '/' | relative_url }}) has the latest version.
+The program may change on the day and differ from physical printed booklets. Digital copies of the [booklet]({{ '/' | relative_url }}) is the latest version.
 {: .note}
 
 ### What to bring

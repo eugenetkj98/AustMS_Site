@@ -50,6 +50,12 @@
   bio: >-
     Hoa Bui is a Senior Lecturer and DECRA Fellow in the Centre for Optimisation and Decision Science, Curtin University. Her research focuses on high-performance optimisation algorithms for large scale integer nonlinear optimisation problems. She translates advanced mathematical theory into practical computational methods, making challenging problems more tractable and enabling better real world decision making.
 
+- name: Dr Alex Tam
+  institution: Adelaide University
+  photo: "/assets/speakers/Alex_Tam.jpg"
+  bio: >-
+    Alex Tam is an applied mathematician and mathematical biologist, working as a Senior Lecturer at Adelaide University. He is an AustMS Early Career Representative and current ARC DECRA Fellow.
+
 - name: Emer. Prof. Cheryl Praeger
   institution: University of Western Australia (UWA)
   photo: "/assets/speakers/Cheryl_Praeger.png"
@@ -86,9 +92,32 @@
   bio: >-
     Scott Lindstrom is a Senior Lecturer at Curtin University focusing on applying variational analysis and computational tools to study nonlinear optimisation problems. He holds a PhD from the University of Newcastle, and subsequently held a postdoctoral position at Hong Kong Polytechnic University.
 
+- name: Rhuaidi Burke
+  institution: The University of Oxford
+  photo: "/assets/speakers/Rhuaidi_Burke.jpg"
+  bio: >-
+    TBA 
+
+- name: Madeline Nurcombe
+  institution: 
+  photo: ""
+  bio: >-
+    TBA
 
 - name: Dominic Matan
   institution: University of New South Wales (UNSW)
   photo: ""
   bio: >-
     Dominic Matan is a PhD student in pure mathematics and a tutor at the School of Mathematics and Statistics, UNSW Sydney. His PhD project is under the primary supervision of Professor Daniel Chan and secondary supervision of Dr. Behrouz Taji. 
+
+- name: Dr Yudhi Bunjamin
+  institution: University of New South Wales (UNSW)
+  photo: "/assets/speakers/Yudhi_Bunjamin.jpg"
+  bio: >-
+    TBA
+
+- name: Dr Eugene Tan
+  institution: The Kids Research Institute Australia
+  photo: "/assets/speakers/Eugene_Tan.jpg"
+  bio: >-
+    TBA

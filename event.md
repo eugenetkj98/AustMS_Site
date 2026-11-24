@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Event Details
+permalink: /
 # The key facts at the top of the page. Leave a value empty ("") to show a placeholder.
 details:
   - label: Date
@@ -27,7 +28,7 @@ details:
 {% include program.html %}
 </div>
 
-The program may change on the day and differ from physical printed booklets. Digital copies of the [booklet]({{ '/' | relative_url }}) is the latest version.
+The program may change on the day and differ from physical printed booklets. Digital copies of the [booklet]({{ '/booklet.html' | relative_url }}) is the latest version.
 {: .note}
 
 ### What to bring
@@ -45,7 +46,7 @@ Eduroam is available at the workshop. Check it works on your laptop before you t
 ### Catering
 
 <div class="card" markdown="1">
-Coffee, morning tea, lunch and afternoon tea are provided by Nosh Catering. The [map in the booklet]({{ '/' | relative_url }}) shows where food is served.
+Coffee, morning tea, lunch and afternoon tea are provided by Nosh Catering. The [map in the booklet]({{ '/booklet.html' | relative_url }}) shows where food is served.
 </div>
 
 ### Support for carers

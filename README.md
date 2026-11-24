@@ -20,7 +20,7 @@ The website for workshop attendees, who reach it by QR code. It's built with [Je
 | Colours, fonts, spacing | `assets/style.css` (colours are listed at the top) |
 | The header and tab bar shared by every page | `_layouts/default.html` |
 
-You shouldn't need to touch `_includes/`, `assets/viewer.js` or `index.html`.
+You shouldn't need to touch `_includes/`, `assets/viewer.js` or `booklet.html`.
 
 ## Common tasks
 

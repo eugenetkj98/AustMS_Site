@@ -14,7 +14,7 @@
   speakers: Alex Tam, Yudhi Bunjamin, Eugene Tan
   location: EZONE Central, Giumelli Learning Studio 3
 - time: "9:15–9:45"
-  session: Social activity
+  session: Social Activity: Speed Networking
   speakers: Alex Tam, Yudhi Bunjamin, Eugene Tan
   location: EZONE Central, Giumelli Learning Studio 3
 - time: "9:45–10:15"
@@ -37,13 +37,13 @@
     - title: How to Give a Bad Presentation
       speakers: Shannon Algar, Hayden Tronnolone
     - title: Industry and Research Funding
-      speakers: Hoa Bui
+      speakers: Hoa Bui, Alex Tam
   location: EZONE Central, Giumelli Learning Studio 3
 - time: "14:00–14:10"
   session: Venue change (walk to Weatherburn Lecture Theatre)
   break: true
 - time: "14:10–15:00"
-  session: Panel Discussion
+  session: Mentoring Panel Discussion
   speakers: Cheryl Praeger, Michael Hartley, John Bamberg, Geoffrey Pearce, Yudhi Bunjamin
   location: Weatherburn Lecture Theatre
 - time: "15:00–15:30"

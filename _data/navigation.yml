@@ -1,12 +1,13 @@
 # The tabs along the top of every page, in order.
 # "url" is the page's address: the home page is "/", other pages end in ".html".
-- title: Booklet
-  url: /
+
 - title: Event Details
-  url: /event.html
+  url: /
 - title: Speakers
   url: /speakers.html
 - title: Resources
   url: /resources.html
 - title: Contacts
   url: /contacts.html
+- title: Booklet
+  url: /booklet.html

@@ -31,16 +31,22 @@ details:
 The program may change on the day and differ from physical printed booklets. Digital copies of the [booklet]({{ '/booklet.html' | relative_url }}) is the latest version.
 {: .note}
 
+### Registration
+
+<div class="card" markdown="1">
+There will be a registration desk at the Early-Career Workshop, located in the EZONE Central Building (275). For those attending, registration for the ECW also serves as registration for the AustMS Conference. Registered participants will receive a lanyard, name tag, and an A6 ECW card. The booklet and program will be distributed electronically and online only. Hard copies of activity worksheets will be provided on the day.
+</div>
+
 ### What to bring
 
 <div class="card" markdown="1">
-Please bring a pen and paper for the activities. A laptop or tablet may also be useful, as will a device that can read QR codes.
+Please bring a pen or pencil for the interactive sessions. A laptop or tablet with internet access will be useful, as will a smartphone or other device capable of reading QR codes.
 </div>
 
 ### Wi-Fi
 
 <div class="card" markdown="1">
-Eduroam is available at the workshop. Check it works on your laptop before you travel. [How to connect to Wi-Fi at UWA](https://ipoint.uwa.edu.au/app/answers/detail/a_id/683/~/wireless-access-at-uwa)
+Eduroam will be available at the workshop. It is best to check that it works on your laptop before you travel. Information on accessing Eduroam at UWA can be found [here](https://ipoint.uwa.edu.au/app/answers/detail/a_id/683/~/wireless-access-at-uwa).
 </div>
 
 ### Catering
@@ -52,5 +58,5 @@ Coffee, morning tea, lunch and afternoon tea are provided by Nosh Catering. The 
 ### Support for carers
 
 <div class="card" markdown="1">
-This workshop is supported by an Anne Penfold Street Award, which provides funding for attendees with caring responsibilities. If this applies to you, say so when you register or [contact one of the organisers]({{ '/contacts.html' | relative_url }}), who can help with arrangements.
+This workshop is supported by an Anne Penfold Street Award, which provides funding for attendees with caring responsibilities. If this applies to you, please [contact one of the ECW organisers]({{ '/contacts.html' | relative_url }}), who can help with arrangements.
 </div>

@@ -16,9 +16,9 @@ download:
 during:
   title: During the Workshop
   items:
-    - name: Mentimeter “Ask Me Anything” Q&A
+    - name: “Ask Me Anything” Q&A
       description: Ask the panel questions anonymously.
-      url: ""
+      url: "https://padlet.com/a1609621/austms-ecw-q-a-s025r2796kxw9rdx52yf"
     - name: Wi-Fi (Eduroam)
       description: How to connect at UWA. Check it works before you travel.
       url: https://ipoint.uwa.edu.au/app/answers/detail/a_id/683/~/wireless-access-at-uwa

@@ -7,7 +7,7 @@
 # isn't in assets/resources/ yet shows "file to be added".
 
 download:
-  title: Workshop booklet
+  title: Workshop Booklet
   intro: The full program booklet as a PDF.
   items:
     - name: Download the booklet
@@ -43,7 +43,9 @@ materials:
     - title: Industry and Research Funding
       items: []
     - title: General
-      items: []
+      items:
+        - name: Feedback Form
+          url: "https://forms.gle/SDqv5kTRGDtPSrfh8"
 
 # documents:
 #   title: Documents
@@ -54,11 +56,9 @@ materials:
 #       file: "AustMS Skills Audit.docx"
 
 links:
-  title: Further links
+  title: Further Links
   items:
     - name: Australian Mathematical Society
       url: https://austms.org.au/
     - name: AustMS 2026 Conference
       url: "https://austms2026.org.au/"
-    - name: Feedback Form
-      url: "https://forms.gle/SDqv5kTRGDtPSrfh8"

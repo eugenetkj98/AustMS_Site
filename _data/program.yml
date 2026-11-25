@@ -22,7 +22,7 @@
   speakers: Luciana Basualdo Bonatto
   location: EZONE Central, Giumelli Learning Studio 3
 - time: "10:15–11:00"
-  session: Morning tea
+  session: Morning Tea
   break: true
 - time: "11:00–12:00"
   session: Careers Workshop
@@ -40,18 +40,18 @@
       speakers: Hoa Bui, Alex Tam
   location: EZONE Central, Giumelli Learning Studio 3
 - time: "14:00–14:10"
-  session: Venue change (walk to Weatherburn Lecture Theatre)
+  session: Venue Change (Walk to Weatherburn Lecture Theatre)
   break: true
 - time: "14:10–15:00"
   session: Mentoring Panel Discussion
   speakers: Cheryl Praeger, Michael Hartley, John Bamberg, Geoffrey Pearce, Yudhi Bunjamin
   location: Weatherburn Lecture Theatre
 - time: "15:00–15:30"
-  session: Afternoon tea
+  session: Afternoon Tea
   break: true
 - time: "15:30–16:20"
   session: Would I Lie To You?
   speakers: Julia Collins, Scott Lindstrom, Brendan Florio, Rhuaidi Burke, Madeline Nurcombe, Hayden Tronnolone, Dominic Matan
   location: Weatherburn Lecture Theatre
 - time: "16:20–16:30"
-  session: Presentation and close
+  session: Presentation and Close

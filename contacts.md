@@ -12,7 +12,7 @@ title: Contacts
 </div>
 
 <div class="card">
-<h3>On the day</h3>
+<h3>On the Day</h3>
 {% include facts.html facts=site.data.contacts.on_the_day %}
 </div>
 

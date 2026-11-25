@@ -11,11 +11,11 @@ details:
   - label: Venue
     value: "Department of Maths and Stats, UWA. (EZONE Giumelli Learning Studio, Weatherburn Lecture Theatre)"
     placeholder: Building and room, The University of Western Australia
-  - label: Getting there
+  - label: Getting There
     value: "Buses: Purple CAT, 97, 950, 990. Refer to the map below for walking directions."
 ---
 
-## Event details
+## Event Details
 
 <div class="card">
 {% include facts.html facts=page.details %}
@@ -39,7 +39,7 @@ The communication workshops run in parallel. *How to Give a Bad Presentation* is
 There will be a registration desk at the Early-Career Workshop, located in the EZONE Central Building (275). For those attending, registration for the ECW also serves as registration for the AustMS Conference. Registered participants will receive a lanyard, name tag, and an A6 ECW card. The booklet and program will be distributed electronically and online only. Hard copies of activity worksheets will be provided on the day.
 </div>
 
-### What to bring
+### What to Bring
 
 <div class="card" markdown="1">
 Please bring a pen or pencil for the interactive sessions, and paper for taking your own notes. A laptop or tablet with internet access will be useful, as will a smartphone or other device capable of reading QR codes.
@@ -57,7 +57,7 @@ Eduroam will be available at the workshop. It is best to check that it works on 
 Catering (coffee, morning tea, lunch, and afternoon tea) will be provided by Nosh Catering. Please refer to the [map in the booklet]({{ '/booklet.html' | relative_url }}) for where the food will be served.
 </div>
 
-### Support for carers
+### Support for Carers
 
 <div class="card" markdown="1">
 This workshop is supported by an Anne Penfold Street Award, which provides funding for attendees with caring responsibilities. If this applies to you, please [contact one of the ECW organisers]({{ '/contacts.html' | relative_url }}), who can help you with arrangements.

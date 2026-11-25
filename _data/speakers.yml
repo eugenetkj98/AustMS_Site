@@ -51,6 +51,7 @@
     Hoa Bui is a Senior Lecturer and DECRA Fellow in the Centre for Optimisation and Decision Science, Curtin University. Her research focuses on high-performance optimisation algorithms for large scale integer nonlinear optimisation problems. She translates advanced mathematical theory into practical computational methods, making challenging problems more tractable and enabling better real world decision making.
 
 - name: Dr Alex Tam
+  organiser: true
   institution: Adelaide University
   photo: "/assets/speakers/Alex_Tam.jpg"
   bio: >-
@@ -111,12 +112,14 @@
     Dominic Matan is a PhD student in pure mathematics and a tutor at the School of Mathematics and Statistics, UNSW Sydney. His PhD project is under the primary supervision of Professor Daniel Chan and secondary supervision of Dr. Behrouz Taji. 
 
 - name: Dr Yudhi Bunjamin
+  organiser: true
   institution: University of New South Wales (UNSW)
   photo: "/assets/speakers/Yudhi_Bunjamin.jpg"
   bio: >-
     Yudhi Bunjamin is an Associate Lecturer at The University of New South Wales. His research interests are in combinatorial design theory, and he completed a PhD under Professor Catherine Greenhill, Dr. Diana Combe, and Dr. Julian Abel. As a current AustMS Early Career Representative, he is interested in mathematical communication, and hosts the Neumann Talk podcast.
 
 - name: Dr Eugene Tan
+  organiser: true
   institution: The Kids Research Institute Australia
   photo: "/assets/speakers/Eugene_Tan.jpg"
   bio: >-

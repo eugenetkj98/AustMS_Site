@@ -12,7 +12,7 @@ details:
     value: "Department of Maths and Stats, UWA. (EZONE Giumelli Learning Studio, Weatherburn Lecture Theatre)"
     placeholder: Building and room, The University of Western Australia
   - label: Getting there
-    value: "Buses: Purple CAT, 97, 950, 990. Refer to map in booklet for walking directions."
+    value: "Buses: Purple CAT, 97, 950, 990. Refer to the map below for walking directions."
 ---
 
 ## Event details
@@ -62,3 +62,5 @@ Catering (coffee, morning tea, lunch, and afternoon tea) will be provided by Nos
 <div class="card" markdown="1">
 This workshop is supported by an Anne Penfold Street Award, which provides funding for attendees with caring responsibilities. If this applies to you, please [contact one of the ECW organisers]({{ '/contacts.html' | relative_url }}), who can help you with arrangements.
 </div>
+
+{% include venue-map.html %}

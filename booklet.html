@@ -12,7 +12,7 @@ permalink: /booklet.html
     <button id="zoom-fit" type="button" aria-label="Fit to screen width">Fit</button>
   </div>
   <div class="group">
-    <a href="#venue">Map</a>
+    <a href="{{ '/#venue' | relative_url }}">Map</a>
     <span id="page-count"></span>
     <a href="{{ site.booklet | relative_url }}" download>Download</a>
   </div>
@@ -20,7 +20,6 @@ permalink: /booklet.html
 <main id="pdf-container" data-pdf="{{ site.booklet | relative_url }}" aria-label="Workshop booklet">
   <p id="pdf-status">Loading the booklet…</p>
 </main>
-{% include venue-map.html %}
 <noscript><p style="text-align:center"><a class="button" href="{{ site.booklet | relative_url }}">Open the booklet PDF</a></p></noscript>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script src="{{ '/assets/viewer.js' | relative_url }}"></script>

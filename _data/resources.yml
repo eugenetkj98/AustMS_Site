@@ -49,10 +49,11 @@ materials:
       items: []
     - title: General
       items:
-        - name: Action Plan
+        - name: Action Plan Worksheet
           description: Printable PDF of the booklet action plan page.
           url: /Action-Plan.pdf
         - name: Feedback Form
+          description: Google Form to provide feedback after the ECW.
           url: "https://forms.gle/SDqv5kTRGDtPSrfh8"
 
 # documents:

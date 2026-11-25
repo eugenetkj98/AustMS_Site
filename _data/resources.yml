@@ -27,7 +27,12 @@ materials:
   title: Slides and Handouts
   groups:
     - title: "Social Activity: Speed Networking"
-      items: []
+      items:
+        - name: Speed Networking Slides
+          url: ""
+        - name: A6 Card
+          description: An A6 Card will be provided at registration.
+          plain: true
     - title: AustMS Early Career Lecturer Plenary
       items: []
     - title: Careers Workshop

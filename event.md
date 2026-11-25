@@ -28,7 +28,9 @@ details:
 {% include program.html %}
 </div>
 
-The program may change on the day and differ from physical printed booklets. Digital copies of the [booklet]({{ '/booklet.html' | relative_url }}) is the latest version.
+The program may change on the day and differ from physical printed booklets. The digital [booklet]({{ '/booklet.html' | relative_url }}) is the latest version.
+
+The communication workshops run in parallel. *How to Give a Bad Presentation* is recommended for honours, masters and PhD students who are not yet close to submission, non-research-focused individuals, and researchers who do not intend to stay in Australia. *Industry and Research Funding* is recommended for PhD students close to submission, postdocs and ECRs, particularly those interested in an academic research career in Australia.
 {: .note}
 
 ### Registration
@@ -40,7 +42,7 @@ There will be a registration desk at the Early-Career Workshop, located in the E
 ### What to bring
 
 <div class="card" markdown="1">
-Please bring a pen or pencil for the interactive sessions. A laptop or tablet with internet access will be useful, as will a smartphone or other device capable of reading QR codes.
+Please bring a pen or pencil for the interactive sessions, and paper for taking your own notes. A laptop or tablet with internet access will be useful, as will a smartphone or other device capable of reading QR codes.
 </div>
 
 ### Wi-Fi
@@ -52,11 +54,11 @@ Eduroam will be available at the workshop. It is best to check that it works on 
 ### Catering
 
 <div class="card" markdown="1">
-Coffee, morning tea, lunch and afternoon tea are provided by Nosh Catering. The [map in the booklet]({{ '/booklet.html' | relative_url }}) shows where food is served.
+Catering (coffee, morning tea, lunch, and afternoon tea) will be provided by Nosh Catering. Please refer to the [map in the booklet]({{ '/booklet.html' | relative_url }}) for where the food will be served.
 </div>
 
 ### Support for carers
 
 <div class="card" markdown="1">
-This workshop is supported by an Anne Penfold Street Award, which provides funding for attendees with caring responsibilities. If this applies to you, please [contact one of the ECW organisers]({{ '/contacts.html' | relative_url }}), who can help with arrangements.
+This workshop is supported by an Anne Penfold Street Award, which provides funding for attendees with caring responsibilities. If this applies to you, please [contact one of the ECW organisers]({{ '/contacts.html' | relative_url }}), who can help you with arrangements.
 </div>

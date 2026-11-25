@@ -1,0 +1,35 @@
+{%- comment -%}
+  Renders a <ul> of link items. Usage: {% include link-items.html items=group.items %}
+  Item format is described in link-list.html. An empty list shows a placeholder.
+{%- endcomment -%}
+{%- assign folder = "/assets/resources/" -%}
+{%- if include.items and include.items.size > 0 %}
+<ul class="link-list">
+{%- for it in include.items %}
+  {%- assign href = "" -%}
+  {%- assign ext = "" -%}
+  {%- assign missing = "link to be added" -%}
+  {%- if it.file and it.file != "" -%}
+    {%- assign path = folder | append: it.file -%}
+    {%- assign found = site.static_files | where: "path", path | first -%}
+    {%- if found -%}
+      {%- assign href = found.name | uri_escape | prepend: folder -%}
+      {%- assign ext = found.extname | remove: "." | upcase -%}
+    {%- else -%}
+      {%- assign missing = "file to be added" -%}
+    {%- endif -%}
+  {%- elsif it.url and it.url != "" -%}
+    {%- assign href = it.url -%}
+  {%- endif %}
+  <li>
+  {%- if href != "" %}
+    <a href="{{ href | relative_url }}"{% if ext != "" %} target="_blank" rel="noopener"{% endif %}>{{ it.name }}{% if ext != "" %} <span class="filetype">{{ ext }}</span>{% endif %}{% if it.description %}<span class="desc">{{ it.description }}</span>{% endif %}</a>
+  {%- else %}
+    <span class="item">{{ it.name }}<span class="desc">{% if it.description %}{{ it.description }} {% endif %}{% include placeholder.html text=missing %}</span></span>
+  {%- endif %}
+  </li>
+{%- endfor %}
+</ul>
+{%- else %}
+<p>{% include placeholder.html text="materials to be added" %}</p>
+{%- endif %}

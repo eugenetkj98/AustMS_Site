@@ -369,3 +369,6 @@ main.page ul.speakers { list-style: none; padding-left: 0; margin: 0; }
   .speaker-photo { width: 64px; height: 64px; }
   .speaker-initials { font-size: 1.4rem; }
 }
+
+.link-group { margin: 1.25rem 0 0.25rem; font-size: 1rem; }
+.link-group:first-of-type { margin-top: 0.5rem; }

@@ -25,19 +25,25 @@ during:
 
 materials:
   title: Slides and Handouts
-  items:
-    - name: Plenary
-      url: ""
-    - name: ECR Career Workshop Slides
-      file: "ECR_Career_Slides.pdf"
-    - name: ECR Career Workshop Skills Audit (PDF)
-      file: "AustMS Skills Audit.pdf"
-    - name: ECR Career Workshop Skills Audit (DOCX)
-      file: "AustMS Skills Audit.docx"
-    - name: How to Give a Bad Presentation
-      url: ""
-    - name: Industry and Research Funding
-      url: ""
+  groups:
+    - title: "Social Activity: Speed Networking"
+      items: []
+    - title: AustMS Early Career Lecturer Plenary
+      items: []
+    - title: Careers Workshop
+      items:
+        - name: ECR Career Workshop Slides
+          file: "ECR_Career_Slides.pdf"
+        - name: ECR Career Workshop Skills Audit (PDF)
+          file: "AustMS Skills Audit.pdf"
+        - name: ECR Career Workshop Skills Audit (DOCX)
+          file: "AustMS Skills Audit.docx"
+    - title: How to Give a Bad Presentation
+      items: []
+    - title: Industry and Research Funding
+      items: []
+    - title: General
+      items: []
 
 # documents:
 #   title: Documents

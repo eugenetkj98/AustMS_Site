@@ -49,6 +49,9 @@ materials:
       items: []
     - title: General
       items:
+        - name: Action Plan
+          description: Printable PDF of the booklet action plan page.
+          url: /Action-Plan.pdf
         - name: Feedback Form
           url: "https://forms.gle/SDqv5kTRGDtPSrfh8"
 

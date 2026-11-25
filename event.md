@@ -29,6 +29,7 @@ details:
 </div>
 
 The program may change on the day and differ from physical printed booklets. The digital [booklet]({{ '/booklet.html' | relative_url }}) is the latest version.
+{: .note}
 
 The communication workshops run in parallel. *How to Give a Bad Presentation* is recommended for honours, masters and PhD students who are not yet close to submission, non-research-focused individuals, and researchers who do not intend to stay in Australia. *Industry and Research Funding* is recommended for PhD students close to submission, postdocs and ECRs, particularly those interested in an academic research career in Australia.
 {: .note}
@@ -36,7 +37,7 @@ The communication workshops run in parallel. *How to Give a Bad Presentation* is
 ### Registration
 
 <div class="card" markdown="1">
-There will be a registration desk at the Early-Career Workshop, located in the EZONE Central Building (275). For those attending, registration for the ECW also serves as registration for the AustMS Conference. Registered participants will receive a lanyard, name tag, and an A6 ECW card. The booklet and program will be distributed electronically and online only. Hard copies of activity worksheets will be provided on the day.
+There will be a registration desk at the Early Career Workshop, located in the EZONE Central Building (275). For those attending, registration for the ECW also serves as registration for the AustMS Conference. Registered participants will receive a lanyard, name tag, and an A6 ECW card. The booklet and program will be distributed electronically and online only. Hard copies of activity worksheets will be provided on the day.
 </div>
 
 ### What to Bring

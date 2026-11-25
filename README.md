@@ -1,4 +1,4 @@
-# AustMS Early-Career Workshop 2026 site
+# AustMS Early Career Workshop 2026 site
 
 The website for workshop attendees, who reach it by QR code. It's built with [Jekyll](https://jekyllrb.com/), which GitHub Pages runs for you automatically: you edit Markdown and YAML text files, push them to GitHub, and the site rebuilds in about a minute. There's nothing to install unless you want to preview changes on your own computer.
 
